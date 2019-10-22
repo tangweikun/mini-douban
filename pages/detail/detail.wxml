@@ -1,5 +1,4 @@
-<!--pages/detail/detail.wxml-->
+<!-- pages/detail/detail.wxml -->
 <view class="detail_container">
-  <image  class="mainpic"  src="{{movie.images.small}}"></image>
+  <image class="mainpic" src="{{movie.images.small}}"></image>
 </view>
-
