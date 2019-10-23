@@ -37,11 +37,11 @@ Page({
 
   _goDetail: function(e) {
     //拿到点击的index下标
-    const index = e.currentTarget.dataset.index;
-    console.log(this.data.movies[index]);
-    const movie = JSON.stringify(this.data.movies[index]);
-    wx.navigateTo({
-      url: '../detail/detail?movie=' + movie,
-    });
+    // const index = e.currentTarget.dataset.index;
+    // console.log(this.data.movies[index]);
+    // const movie = JSON.stringify(this.data.movies[index]);
+    // wx.navigateTo({
+    //   url: '../detail/detail?movie=' + movie,
+    // });
   },
 });

@@ -29,36 +29,34 @@
   color: #669;
 }
 
-.rating10-t,
-.rating15-t,
-.rating20-t,
-.rating25-t,
-.rating30-t,
-.rating35-t,
-.rating40-t,
-.rating45-t,
-.rating50-t,
-.rating-t {
+.rating10,
+.rating15,
+.rating20,
+.rating25,
+.rating30,
+.rating35,
+.rating40,
+.rating45,
+.rating50,
+.rating {
   display: inline-block;
-  zoom: 1;
   background: url(https://img3.doubanio.com/f/shire/b8f4c3672ef81106701071831e22422a745d3b74/pics/rating_icons/ic_rating_s.png)
     no-repeat;
-
   width: 55px;
   height: 11px;
-  margin: 0 3px 0 0;
+  margin-right: 3px;
   overflow: hidden;
 }
 
-.rating50-t {
+.rating50 {
   background-position: 0 0px;
 }
 
-.rating45-t {
+.rating45 {
   background-position: 0 -11px;
 }
 
-.rating40-t {
+.rating40 {
   background-position: 0 -22px;
 }
 

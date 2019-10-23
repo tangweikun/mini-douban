@@ -4,8 +4,8 @@
   <view class="movie_info">
     <text class="title">{{item.title}}</text>
     <view class="star">
-      <text class="{{item.rating.average}}"></text>
-      <text class="rating_num">{{item.rating.average.toFixed(1)}}</text>
+      <text class="{{'rating' + item.rating.stars}}"></text>
+      <text class="rating_num">{{item.rating.average}}</text>
     </view>
   </view>
 </view>
